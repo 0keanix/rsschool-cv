@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Ilia Denisov</title>
-</head>
-<body>
-    <h1>Ilia Denisov</h1>
-</body>
+    <title>Ilia Denisov CV RSS</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="link nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="link nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="link nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="link nav-link">Code</a></li>
+            <li class="nav-item"><a href="#education" class="link nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="link nav-link">Languages</a></li>
+          </ul>
+        </nav>
+        <section class="section">
+          <div class="profile-section">
+            <img class="avatar" src="assets/avatar.jpg" alt="Avatar">
+          </div>
+          <h1 class="profile-header">Ilia Denisov</h1>
+        </section>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contact Info</h2>
+          <hr>
+          <ul class="list">
+            <li><span class="label">City: </span>Batumi</li>
+            <li><span class="label">Phone: </span>+995511204510</li>
+            <li><a class="link" href="mailto:iodenisof@gmail.com"><span class="label">Email: </span>iodenisof@gmail.com</a></li>
+            <li><a class="link" href="https://github.com/0keanix"><span class="label">GitHub: </span>0keanix</a></li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">About</h2>
+          <hr>
+          <p class="text-content">
+            I am 32 years old and have been working as a test automation engineer for more than 5 years.
+            I want to develop my knowledge and skills on frontend technologies and grow to the position of SDET,
+            that's why I'm here.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <hr>
+          <ul class="list">
+            <li>Java SE</li>
+            <li>Basic JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Selenium/Selenide</li>
+            <li>Jenkins</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <hr>
+          <div class="code-container">
+            <pre class="preformatted-code">
+              function maps(x) {
+                let result = [];
+                for (let i = 0;i &lt;&nbsp;x.length;i++) {
+                  result[i] = (x[i] * 2);
+                }
+                return result;
+              }
+            </pre>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <hr>
+          <pre class="preformatted"><span class="label">Moscow Technological Institute</span> - Computer Science in Economics</pre>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <hr>
+          <ul class="list">
+            <li><span class="label">Russian - </span>Native</li>
+            <li><span class="label">English - </span>B1</li>
+          </ul>
+          <hr>
+        </section>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <div class="container">
+        <ul class="list">
+          <li>
+            <a href="https://rs.school/js/">
+              <img class="rs-logo" alt="RS School" src="assets/rs_school_js.svg">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__inner--bottom">
+        <h6 class="footer-header"><a class="link" href="https://github.com/0keanix">Ilia Denisov, 2022</a></h6>
+      </div>
+    </footer>
+  </body>
 </html>
