@@ -111,6 +111,10 @@ body {
   font-family: 'Verdana', sans-serif;
 }
 
+.preformatted-code {
+  font-family: monospace;
+}
+
 .rs-logo {
   height: 25%;
   width: 25%;
