@@ -599,12 +599,13 @@ details[open] summary:before {
 }
 
 .contacts-button {
+  display: flex;
+  margin-top: 148px;
   width: 450px;
   height: 50px;
   border:	none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px;
-  display: flex;
   align-items: center;
   font-family: 'Inter';
   font-style: normal;
@@ -613,13 +614,11 @@ details[open] summary:before {
   line-height: 40px;
   letter-spacing: 0.05em;
   color: #717171;
-  margin-top: 148px;
+  background: #D6E7D2 url('img/svg/btn_down_l.svg') no-repeat 90% 50%;
 }
 
-.contacts-button {
-  background: url('img/svg/btn_down_l.svg') no-repeat;
-  background-position: 90% 50%;
-  background-color: #D6E7D2;
+.contacts-button span {
+  margin-left: 8px;
 }
 
 .footer {
