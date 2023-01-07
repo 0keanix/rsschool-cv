@@ -5,6 +5,31 @@
   --white-color: #fff;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol, ul {
+  list-style: none;
+}
+
 @font-face {
   font-family: 'Inika';
   font-style: normal;
@@ -109,7 +134,7 @@ ul li img {
   padding-top: 40px;
 }
 
-.header-logo__link img {
+.header-logo__link img span {
   padding-bottom: 10px;
 }
 
@@ -218,7 +243,7 @@ ul li img {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
-  color: #E06733;
+  color: var(--orange-color);
 }
 
 .learn-more:hover, .learn-more:focus, .learn-more:active {
@@ -346,7 +371,7 @@ ul li img {
   border: 1px solid #E3E1D5;
   border-radius: 20px 20px 20px 20px;
   margin-bottom: 55px;
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 .service-items__item:hover {
@@ -429,10 +454,7 @@ details {
   width: 250px;
   background: var(--background-color);
   border-radius: 20px;
-  margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
+  margin: 32px auto;
 }
 
 details div {
@@ -495,7 +517,7 @@ details[open] summary {
 }
 
 details[open] summary:before {
-  content: url('../img/svg/btn_up.svg');
+  content: url('img/svg/btn_up.svg');
   width: 16px;
   height: 16px;
 }
@@ -595,7 +617,7 @@ details[open] summary:before {
 }
 
 .contacts-button {
-  background: url('../img/svg/btn_down_l.svg') no-repeat;
+  background: url('img/svg/btn_down_l.svg') no-repeat;
   background-position: 90% 50%;
   background-color: #D6E7D2;
 }
@@ -627,12 +649,12 @@ details[open] summary:before {
   margin-right: 20px;
 }
 
-.footer__data-title a {
+.footer-data__title {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
+  text-decoration: none;
   color: #000000;
-  
 }
