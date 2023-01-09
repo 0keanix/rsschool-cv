@@ -496,7 +496,7 @@ summary:before {
   top: 50%;
   transform: translateY(-50%);
   left: 80%;
-  content: url('../img/svg/btn_down.svg');
+  content: url('./img/svg/btn-down.svg');
   width: 16px;
   height: 16px;
   color: #717171;
